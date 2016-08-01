@@ -1,0 +1,24 @@
+<ion-view view-title="Sync Documents" name="docList-view">
+
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon icon ion-ios-search-strong" ng-click="showFilterBar()">
+    </button>
+  </ion-nav-buttons>
+
+  <ion-content direction="y" scrollbar-y="false">
+      <div class="list">
+      <ion-checkbox ng-repeat="document in documentList "
+                    ng-model="document.isSyncRequired"
+                    ng-click='testIfSync()'> {{::document.title}}
+      </ion-checkbox>
+    </div>
+  </ion-content>
+
+  <ion-footer-bar ng-show='syncButton' class="padding bar bar-positive" ng-click="syncDocs();" align-title="center" style='cursor: pointer;'>
+    <h1 class="title" align="center">
+      Sync now
+    </h1>
+  </ion-footer-bar>
+
+
+</ion-view>

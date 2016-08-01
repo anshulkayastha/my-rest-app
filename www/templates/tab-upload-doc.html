@@ -1,0 +1,15 @@
+<ion-view view-title="Upload Document">
+  <ion-content class="padding">
+    <p>Select and Upload Document</p>
+
+
+      <!-- <input type="file" ng-select="upload($files)" multiple> -->
+     <!-- <input type="file" ngf-select="upload($files)"  multiple> -->
+
+    <input type="file" fileread="uploadme"/>
+
+        <button ng-click="uploadme()"
+            class="button button-block button-positive">Upload</button>
+
+  </ion-content>
+</ion-view>

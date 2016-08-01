@@ -1,0 +1,18 @@
+<ion-view view-title="Upload Picture">
+  <ion-content class="padding">
+    <p>Upload pic</p>
+   <!-- DEvice is : {{ device }} -->
+    <div class="list card">
+      <div class="item item-image">
+        <img ng-src="{{pictureUrl}}">
+      </div>
+    </div>
+    <div class="padding">
+      <button ng-click="takePicture()"
+        class="button button-block button-positive">Take Picture</button>
+
+    </div>
+
+
+  </ion-content>
+</ion-view>

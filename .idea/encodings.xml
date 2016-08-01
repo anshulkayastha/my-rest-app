@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/www/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/config.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/directives.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/services.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-doc-list.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-maps.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-plot.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-sync-docs.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-upload-doc.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tab-upload-pic.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tabs.html" charset="UTF-8" />
+  </component>
+</project>

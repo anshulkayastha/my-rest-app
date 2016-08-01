@@ -1,0 +1,33 @@
+<ion-view view-title="Maps" name="maps-view">
+
+
+
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item>
+        <label>Address: </label>
+        <input type="text" placeholder="Enter Address" ng-model="coordinates.Address">
+      </ion-item>
+
+      <ion-item>
+        <label>OR</label>
+      </ion-item>
+
+      <ion-item>
+        <label>Latitude: </label>
+        <input type="text" placeholder="Enter Latitude" ng-model="coordinates.latitude">
+      </ion-item>
+      <ion-item>
+        <label>Longitude: </label>
+        <input type="text" placeholder="Enter Longitude" ng-model="coordinates.longitude">
+      </ion-item>
+    </ion-list>
+    <button class="button button-block button-positive"
+            ng-click="getMap()">Get Map</button>
+    <img ng-src="{{ mapUrl }}" >
+  </ion-content>
+
+
+
+
+</ion-view>
